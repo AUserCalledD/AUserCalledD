@@ -10,9 +10,7 @@ output: html_document
 THIS IS A MODIFIED TEMPLATE FROM THE GOOGLE DATA ANALYST COURSE.
 It is fictional data.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 ## Setting up my enviroment
 ```{r }
 
@@ -21,7 +19,6 @@ library(tidyverse)
 library(readr)
 library(ggplot2)
 library(conflicted)# Use the conflicted package to manage conflicts
-# Set dplyr::filter and dplyr::lag as the default choices
 conflict_prefer("filter", "dplyr")
 conflict_prefer("lag", "dplyr")
 ```
