@@ -1,4 +1,5 @@
 # %% [code]
+# %% [code]
 
 ---
 title: "\"How does a bike-share navigate speedy success?\""
@@ -8,7 +9,7 @@ output: html_document
 ---
 # CICLYST SERVICE DATA
 THIS IS A MODIFIED TEMPLATE FROM THE GOOGLE DATA ANALYST COURSE.
-It is fictional data.
+It`s fictional data.
 
 
 ## Setting up my enviroment
@@ -229,7 +230,7 @@ arrange(member_casual, weekday) # sorts
 ```
 
 
- Lets visualize the number of rides by rider type
+ Let`s visualize the number of rides by rider type
 ```{r}
 all_trips_v2 %>%
 mutate(weekday = wday(started_at, label = TRUE)) %>%
@@ -243,7 +244,7 @@ geom_col(position = "dodge")
 ```
 
 
- Lets create a visualization for average duration
+ Let`s create a visualization for average duration
 ```{r}
 all_trips_v2 %>%
 mutate(weekday = wday(started_at, label = TRUE)) %>%
